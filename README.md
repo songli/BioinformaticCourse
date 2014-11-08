@@ -10,7 +10,7 @@ Bioinformatic Course II
 3. Using ARC resources
 4. Linux command recipes for bioinformatics
 
-## Using Linux: there are more than one way to get there.
+## Using Linux: there's more than one way to get there.
  
 1. Buy a mac and install homebrew. **$$$$**
 2. Buy an old machine an install linux on it. **$**
