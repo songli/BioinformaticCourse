@@ -42,7 +42,7 @@ Bioinformatic Course II
 
 ## Start to use linux today!
 
-## Know where you are and setup your working environment
+## [Know where you are and setup your working environment](ThreeSteps.md)
 
 ## Pick your editor
 
