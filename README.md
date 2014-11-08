@@ -12,13 +12,13 @@ Bioinformatic Course II
 
 ## Using Linux: there are more than one way to get there.
  
-1. Buy a mac and install homebrew. $$$$
-2. Buy an old machine an install linux on it. $
+1. Buy a mac and install homebrew. **$$$$**
+2. Buy an old machine an install linux on it. **$**
 3. Virtual Machines. **_Free !_**
 
   VirtualBox https://www.virtualbox.org 
   
-  VMWare https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
+  VMWare Player https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
   
 4. SSH Clients. **_Free !_**
 
@@ -26,13 +26,15 @@ Bioinformatic Course II
   
   Putty http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
-5. Dual Boot. **_Free !_**
+5. Dual Boot. **_Free ! But not simple for windows 8_**
 
   Download bootable USB drive or CD image
-  
+  [see tutorial] (http://askubuntu.com/questions/221835/installing-ubuntu-on-a-pre-installed-windows-8-64-bit-system-uefi-supported)
 6. Native Client. **_Windows Only, Free !_**
 
   Cygwin https://www.cygwin.com
+  
+  [see tutorial](http://x.cygwin.com/docs/ug/setup-cygwin-x-installing.html)
 
 ## Start to use linux today!
 
