@@ -10,7 +10,7 @@ Bioinformatic Course II
 3. Using ARC resources
 4. Linux command recipes for bioinformatics
 
-## Using Linux: There are more than one way to get there:
+## Using Linux: there are more than one way to get there:
  
 1. Buy a mac and install homebrew
 2. Buy an old machine an install linux on it
@@ -36,5 +36,29 @@ Bioinformatic Course II
 
 ## Start to use linux today!
 
-## 
+## Know where you are and setup your working environment
+
+## Pick your editor
+
+## Login to HokieSpeed
+
+## Your first bash script
+
+## Get your data to and from a remote machine
+
+## Keep your data safe (from yourself)
+
+## Submitting your job to the cluster
+
+## Some common file types in bioinformatics (Next Generation Sequencing)
+
+1. .sh, .py, .pl, .rb, .cpp, .h, .c, .php, .html, .xml, .graphml, .gz, .tar.gz, .bz2
+2. sam, bam and bai
+3. fasta
+4. fastq
+5. BED
+6. GTF and GFF
+7. VCF 
+
+
 
