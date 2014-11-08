@@ -16,9 +16,12 @@ Bioinformatic Course II
 2. Buy an old machine an install linux on it. **$**
 3. Virtual Machines. **_Free !_**
 
-  VirtualBox https://www.virtualbox.org 
-  
-  VMWare Player https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
+    3.1 VirtualBox https://www.virtualbox.org
+        * Use it in full screen.
+        * Turn on 2D and 3D acceleration.
+        * Install Guest Addition (already done).
+        
+    3.2 VMWare Player https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
   
 4. SSH Clients. **_Free !_**
 
