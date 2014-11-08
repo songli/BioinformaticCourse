@@ -17,9 +17,10 @@ Bioinformatic Course II
 3. Virtual Machines. **_Free !_**
 
     3.1 VirtualBox https://www.virtualbox.org
-        * Use it in full screen.
-        * Turn on 2D and 3D acceleration.
-        * Install Guest Addition (already done).
+    
+     * Use it in full screen.
+     * Turn on 2D and 3D acceleration.
+     * Install Guest Addition (already done).
         
     3.2 VMWare Player https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
   
