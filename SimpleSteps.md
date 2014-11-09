@@ -100,11 +100,12 @@ $ which R
 ## 2. Making your life easier by editing your .bashrc.
 
 * choose your editor
-    * vi
-    * emacs
+    * vi http://en.wikipedia.org/wiki/Vi
+    * emacs http://en.wikipedia.org/wiki/Emacs
     * **nano**
     * gedit
-    * notepad ++
+    * notepad ++ **windows only**
+    * bluefish
     * eclipse
 
 
@@ -145,8 +146,7 @@ ssh $HKSP1
 
 ```
 
-# The most important rule:
-# DON'T USE THE HEAD NODE FOR COMPUTATION.
+# DON'T USE THE HEAD NODE FOR COMPUTATION!
 
 After log in:
 ```
@@ -189,7 +189,7 @@ Type 'q()' to quit R.
 
 > 
 > q()
-Save workspace image? [y/n/c]: y
+Save workspace image? [y/n/c]: n
 
 [songli@hslogin1 ~]$ 
 
@@ -219,21 +219,6 @@ $ mkdir figures
 $ mkdir documents
 $ echo "my first project" > README.md
 ```
-
-let's do it again
-```
-cd ~/Research
-rm -r Project1
-cd ~
-touch makeProj.sh
-nano makeProj.sh
-```
-
-make the shell script executable 
-```
-chmod +x makeProj.sh
-```
-
 
 ## 4. Get ready for the next step.
 * download some read files
