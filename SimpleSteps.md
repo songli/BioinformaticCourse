@@ -9,6 +9,7 @@
 1. Find your home directory. Take a brief tour of your home directory. See where most programs are.
 2. Create a file called .bashrc, add environemntal variable $HKSP1=your_vt_id@hokiespeed1.arc.vt.edu and $HKSP2=your_vt_id@hokiespeed2.arc.vt.edu
 3. Create a working directory with the following structure.
+4. Get some read files to the RawData directory
 
 
 ```
@@ -35,7 +36,6 @@ Project 2
 Project 3 etc
 ```
 
-4. Get some read files to the RawData directory
 
 
 
