@@ -4,7 +4,13 @@
 2. Choose your editor.
 3. Setup your project folder. 
 
-'''
+## Objectives
+1. Find your home directory
+2. Create a file called .bashrc, add environemntal variable $HKSP1=your_vt_id@hokiespeed1.arc.vt.edu and $HKSP2=your_vt_id@hokiespeed2.arc.vt.edu
+3. Create a working directory with the following structure.
+4. Get some read files to the RawData directory
+
+```
 Project1
 +-- README.md
 +-- Data
@@ -24,5 +30,9 @@ Project1
 |   +-- Daily journal, track your day to day programming/analysis progress.
 |   +-- Summary for mature scripts. include input, output, working dir, command line parameters etc.
 |   +-- Flow charts for your analysis routine.
-Project 2 etc
-'''
+Project 2 
+Project 3 etc
+```
+
+
+
