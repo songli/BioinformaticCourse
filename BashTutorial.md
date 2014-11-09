@@ -52,6 +52,9 @@ Hello yourname
 Hello World!
 
 ```
+$1 is the first command line variable
+$hello is a variable defined in the script
+
 
 ## 2. Automatic creation of your project library.
 
@@ -65,6 +68,13 @@ nano makeProj.sh
 edit the content of the makeProj.sh
 ```
 #!/bin/bash 
+
+if [ $# -eq 0 ]; then
+    echo "No arguments provided"
+    echo "Usage: makeProj.sh [project name]"
+    exit 1
+fi
+
 cd ~/Research
 ProjDir=Project_$1
 mkdir $ProjDir
@@ -84,16 +94,11 @@ chmod +x makeProj.sh
 ls
 ```
 
+## 3. BASH Util: grep
 
-## Variables
+## 4. BASH Util: sort and uniq
 
-## Command Line Arguements
+## 5. BASH Util: sed
 
-## BASH Util: grep
-
-## BASH Util: sort and uniq
-
-## BASH Util: sed
-
-## BASH Util: awk
+## 6. BASH Util: awk
 
