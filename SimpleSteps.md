@@ -2,7 +2,8 @@
 
 1. Know where you are and how to get around.
 2. Choose your editor.
-3. Setup your project folder. 
+3. Setup your project folder.
+4. Get ready for the next step.
 
 ## Objectives
 1. Find your home directory. Take a brief tour of your home directory. See where most programs are.
@@ -41,11 +42,76 @@ Project 3 etc
 * what are already there for me?
 * where are the "programs" ?
 
-## 2. Making your life easier by editing your .bashrc
+## 2. Making your life easier by editing your .bashrc.
 * choose your editor
+    * vi
+    * emacs
+    * **nano**
+    * gedit
+    * notepad ++
+    * eclipse
+
 * open your .bashrc
+
+
+
 * add environmental variables to .bashrc
 * login to hokiespeed
+
+First log in:
+
+
+After log in:
+```
+[songli@hslongin1 ~]$ pwd
+/home/songli
+
+$ ls -lh
+
+$ ls -a
+
+$ df -h
+
+$ less .bashrc
+
+$ ls /usr/bin
+
+$ which python
+
+$ which R
+```
+
+Find what's available
+
+```
+$ module list
+
+$ module avail
+
+$ module load R/2.14.1
+
+$ R
+R version 2.14.1 (2011-12-22)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+...
+...
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> q()
+Save workspace image? [y/n/c]: y
+
+[songli@hslogin1 ~]$ 
+
+```
+
+Leaving HokieSpeed
+
+```
+```
 
 ## 3. Creating a nice starting point.
 * create a working directory for a bioinformatics project
