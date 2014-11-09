@@ -5,7 +5,7 @@
 3. Setup your project folder. 
 
 ## Objectives
-1. Find your home directory
+1. Find your home directory. Take a brief tour of your home directory. See where most programs are.
 2. Create a file called .bashrc, add environemntal variable $HKSP1=your_vt_id@hokiespeed1.arc.vt.edu and $HKSP2=your_vt_id@hokiespeed2.arc.vt.edu
 3. Create a working directory with the following structure.
 4. Get some read files to the RawData directory
@@ -33,6 +33,26 @@ Project1
 Project 2 
 Project 3 etc
 ```
+
+## 1. Looking around your working environment.
+
+* open your terminal
+* where am I now?
+* what are already there for me?
+* where are the "programs" ?
+
+## 2. Making your life easier by editing your .bashrc
+* choose your editor
+* open your .bashrc
+* add environmental variables to .bashrc
+* login to hokiespeed
+
+## 3. Creating a nice starting point.
+* create a working directory for a bioinformatics project
+
+## 4. Get ready for the next step.
+* download some read files
+* download some alignment files
 
 
 
