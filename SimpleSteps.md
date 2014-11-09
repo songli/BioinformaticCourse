@@ -41,21 +41,21 @@ Project 3 etc
 
 ## 1. Looking around your working environment.
 
-* open your terminal
+### 1.1 open your terminal
 
 ```
 bioinfo@bioinfo-VirtualBox:~$ 
 
 ```
 
-* where am I now?
+### 1.2 where am I now?
 
 ```
 bioinfo@bioinfo-VirtualBox:~$ pwd
 /home/bioinfo
 ```
 
-* what are already there for me?
+### 1.3 what's already there for me?
 
 ```
 $ ls
@@ -82,7 +82,7 @@ $ cd -
 
 ```
 
-* where are the "programs" ?
+### 1.4 where are the "programs" ?
 
 ```
 
@@ -99,7 +99,7 @@ $ which R
 
 ## 2. Making your life easier by editing your .bashrc.
 
-* choose your editor
+### 2.1 choose your editor
     * vi http://en.wikipedia.org/wiki/Vi
     * emacs http://en.wikipedia.org/wiki/Emacs
     * **nano**
@@ -109,7 +109,7 @@ $ which R
     * eclipse
 
 
-* open your .bashrc
+### 2.2 open your .bashrc
 ```
 $ cd 
 $ less .bashrc
@@ -117,7 +117,7 @@ $ nano .bashrc
 
 ```
 
-* add environmental variables to .bashrc
+### 2.3 add environmental variables to .bashrc
 
 go to the bottom of your .bashrc file (Ctrl+V for both win and mac) and add:
 
@@ -138,7 +138,7 @@ Make sure to reload .bashrc
 source .bashrc
 ```
 
-* login to hokiespeed
+### 2.4 login to hokiespeed
 
 First log in:
 ```
@@ -221,8 +221,41 @@ $ echo "my first project" > README.md
 ```
 
 ## 4. Get ready for the next step.
-* download some read files
-* download some alignment files
+### 4.1 We will download four files from this github repository for our next section:
+
+* SampleFastq.fastq [copythislink](http://tinyurl.com/lathambio/SampleFastq.fastq)
+
+    fastq file is the commonly used file format for next generation sequencing. 
+
+* SampleGFF.gff [copythislink](http://tinyurl.com/lathambio/SampleGFF.gff)
+
+    gff or gtf files are commonly used for annotate gene structures. 
+
+* SampleSam.sam [copythislink](http://tinyurl.com/lathambio/SampleSam.sam)
+
+    sam or bam files are used for saving (short) read alignment information. 
+
+* TAIR10.fas [copythislink](http://tinyurl.com/lathambio/TAIR10.fas)
+
+    fasta files are used to save DNA/RNA/Protein sequences
+
+
+
+### 4.2 Download these files by copying the link and go to your terminal.
+
+```
+cd
+cd Research
+cd Project1
+cd data
+wget http://tinyurl.com/lathambio/SampleSam.sam
+wget http://tinyurl.com/lathambio/SampleGFF.gff
+wget http://tinyurl.com/lathambio/SampleFastq.fastq
+wget http://tinyurl.com/lathambio/TAIR10.fas
+
+ls -lh
+```
+
 
 
 
