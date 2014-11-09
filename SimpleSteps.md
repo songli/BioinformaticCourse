@@ -9,7 +9,7 @@
 1. Find your home directory. Take a brief tour of your home directory. See where most programs are.
 2. Create a file called .bashrc, add environemntal variable $HKSP1=your_vt_id@hokiespeed1.arc.vt.edu and $HKSP2=your_vt_id@hokiespeed2.arc.vt.edu
 3. Create a working directory with the following structure.
-4. Get some read files to the RawData directory
+
 
 ```
 Project1
@@ -35,14 +35,70 @@ Project 2
 Project 3 etc
 ```
 
+4. Get some read files to the RawData directory
+
+
+
 ## 1. Looking around your working environment.
 
 * open your terminal
+
+```
+bioinfo@bioinfo-VirtualBox:~$ 
+
+```
+
 * where am I now?
+
+```
+bioinfo@bioinfo-VirtualBox:~$ pwd
+/home/bioinfo
+```
+
 * what are already there for me?
+
+```
+$ ls
+
+$ ls -lh
+
+$ ls -a
+
+$ df -h
+
+$ cd /
+
+$ ls
+
+$ cd
+
+$ cd /
+
+$ cd ~/Documents
+
+$ cd ..
+
+$ cd -
+
+```
+
 * where are the "programs" ?
 
+```
+
+$ ls /usr/bin
+
+$ ls /usr/local/bin
+
+$ which python
+
+$ which R
+
+```
+
+
 ## 2. Making your life easier by editing your .bashrc.
+
 * choose your editor
     * vi
     * emacs
@@ -51,15 +107,46 @@ Project 3 etc
     * notepad ++
     * eclipse
 
+
 * open your .bashrc
+```
+$ cd 
+$ less .bashrc
+$ nano .bashrc
 
-
+```
 
 * add environmental variables to .bashrc
+
+go to the bottom of your .bashrc file (Ctrl+V for both win and mac) and add:
+
+```
+export HKSP1=yourid@hokiespeed1.arc.vt.edu
+export HKSP2=yourid@hokiespeed2.arc.vt.edu
+```
+To save your editing takes three steps:
+
+    - Ctrl + O
+    - Enter
+    - Ctrl + E
+
+Check your .bashrc by _less_ or _tail_
+
+Make sure to reload .bashrc
+```
+source .bashrc
+```
+
 * login to hokiespeed
 
 First log in:
+```
+ssh $HKSP1
 
+```
+
+# The most important rule:
+# DON'T USE THE HEAD NODE FOR COMPUTATION.
 
 After log in:
 ```
@@ -111,10 +198,42 @@ Save workspace image? [y/n/c]: y
 Leaving HokieSpeed
 
 ```
+$ exit
+
 ```
 
-## 3. Creating a nice starting point.
+## 3. Creating a good starting point.
 * create a working directory for a bioinformatics project
+
+```
+$ cd
+$ mkdir Research
+$ cd Research
+$ mkdir Project1
+$ cd Project1
+$ mkdir data
+$ mkdir rawdata
+$ mkdir scripts
+$ mkdir results
+$ mkdir figures
+$ mkdir documents
+$ echo "my first project" > README.md
+```
+
+let's do it again
+```
+cd ~/Research
+rm -r Project1
+cd ~
+touch makeProj.sh
+nano makeProj.sh
+```
+
+make the shell script executable 
+```
+chmod +x makeProj.sh
+```
+
 
 ## 4. Get ready for the next step.
 * download some read files
