@@ -97,13 +97,17 @@ ls
 # Bioinformatic recipes will cover:
 
 ## 3. BASH Util: grep
-    [tutorial 1] (http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
+    
+[tutorial] (http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
     
 ## 4. BASH Util: sort and uniq
-    [sort examples] (http://www.computerhope.com/unix/usort.htm)
+    
+[sort examples] (http://www.computerhope.com/unix/usort.htm)
     
 ## 5. BASH Util: sed
-    [tutorial 1] (http://tldp.org/LDP/abs/html/x23170.html)
+    
+[tutorial] (http://tldp.org/LDP/abs/html/x23170.html)
     
 ## 6. BASH Util: awk
-    [tutorial 1] (http://tldp.org/LDP/abs/html/awk.html)
+    
+[tutorial] (http://tldp.org/LDP/abs/html/awk.html)
