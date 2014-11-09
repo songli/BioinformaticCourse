@@ -44,27 +44,13 @@ Bioinformatic Course II
 
 ## [Know where you are and setup your working environment](SimpleSteps.md)
 
-## Pick your editor
+## [Your first bash script](BashTutorial.md)
 
-## Login to HokieSpeed
+## [Get your data to and from a remote machine](WorkWithHKSP.md)
 
-## Your first bash script
+## [Bioinformatic Recipes (Next Generation Sequencing)](BioinfoBashRecipes.md)
 
-## Get your data to and from a remote machine
 
-## Keep your data safe (from yourself)
-
-## Submitting your job to the cluster
-
-## Some common file types in bioinformatics (Next Generation Sequencing)
-
-1. .sh, .py, .pl, .rb, .cpp, .h, .c, .php, .html, .xml, .graphml, .gz, .tar.gz, .bz2
-2. sam, bam and bai
-3. fasta
-4. fastq
-5. BED
-6. GTF and GFF
-7. VCF 
 
 
 
