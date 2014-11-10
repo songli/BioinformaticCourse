@@ -71,7 +71,7 @@ $ sed 's/mitochondria/ChrM/' < data/TAIR10.fas  > data/TAIR10.new.fas
 
 Oh, I forget chloroplast
 ```
-$ sed 's/mitochondria/ChrM/' < Test.fas | sed 's/chloroplast/ChrC/' > Test1.fas
+$ sed 's/mitochondria/ChrM/' < Test.fas | sed 's/chloroplast/ChrC/' > data/TAIR10.new.fas
 ```
 
 
