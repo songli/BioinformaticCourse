@@ -86,7 +86,7 @@ sftp>
 ```
 again, check in another window.
 
-#### 2.3.3 rsync
+#### 2.3.3 rsync **Highly Recommended**
 ```
 $ cd Research
 $ rsync -ravz Project1 $HKSP1:~/Research/
@@ -115,7 +115,19 @@ The options for rsync:
 * z: zip the file so it save transmit bandwidth and time
 
 
+## 3. Running jobs on HokieSpeed
 
+Introducing Advanced Research Computing [see](http://www.arc.vt.edu/)
+
+The HPC model: 
+* you login to head node, copy your data and script over.
+* you submit your job request by a shell [script] (http://www.arc.vt.edu/resources/hpc/docs/hokiespeed_qsub_example.sh).
+* a schedular will allocate appropriate resource for your job.
+* the job will run in one or more compute nodes.
+
+```
+
+```
 
 
 
