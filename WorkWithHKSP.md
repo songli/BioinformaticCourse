@@ -126,6 +126,8 @@ The HPC model:
 * a schedular will allocate appropriate resource for your job.
 * the job will run in one or more compute nodes.
 
+You can download the simple qsub script here: [download](https://raw.github.com/songli/BioinformaticCourse/master/resource/scripts/simplesub.sh)
+
 ```
 # Example script for simpleqsub.sh
 
@@ -161,7 +163,7 @@ echo "Done!"
 exit;
 ```
 
-Submit your job
+Make sure makeProj.sh is under "Research", then submit your job
 
 ```
 [songli@hslogin1 Research]$ qsub simpleqsub.sh
