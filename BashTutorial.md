@@ -111,3 +111,6 @@ ls
 ## 6. BASH Util: awk
     
 [tutorial] (http://tldp.org/LDP/abs/html/awk.html)
+
+Coming up next: [Get your data to and from a remote machine](WorkWithHKSP.md)
+
