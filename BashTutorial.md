@@ -94,6 +94,9 @@ chmod +x makeProj.sh
 ls
 ```
 
+The script is available at git hub: [makeProj.sh](https://raw.github.com/songli/BioinformaticCourse/master/resource/scripts/makeProj.sh)
+
+
 # Bioinformatic recipes will cover:
 
 ## 3. BASH Util: grep
@@ -112,5 +115,5 @@ ls
     
 [tutorial] (http://tldp.org/LDP/abs/html/awk.html)
 
-Coming up next: [Get your data to and from a remote machine](WorkWithHKSP.md)
+##Coming up next: [Get your data to and from a remote machine](WorkWithHKSP.md)
 
