@@ -1,7 +1,8 @@
 # Working with HokieSpeed and other remote servers
 
-## 1. First secure your data
+## 1. Secure your data first
 
+### 1.1 get data to raw data directory
 ```
 $ cd ~/Research/Project1
 $ cd rawdata
@@ -30,6 +31,91 @@ $ chmod a-w *
 $ ls -lh
 $ head -200 SampleFastq.fastq > Test.fastq
 ```
+
+Now try to remove one of the files:
+```
+bioinfo@bioinfo-VirtualBox:~/Research/Project1/rawdata$ rm SampleFastq.fastq 
+rm: remove write-protected regular file ‘SampleFastq.fastq’? n
+```
+
+But you can remove the newly created Test.fastq file.
+
+### 1.2 make symbolic links to your data
+
+```
+$ cd ../data
+$ ln -s ../rawdata/SampleFastq.fastq
+$ ln -s ../rawdata/SampleGFF.gff
+$ ln -s ../rawdata/SampleSAM.sam
+$ ln -s ../rawdata/TAIR10.fas
+$ ls -l
+```
+* Don't use more space
+* Same file can be accessed at multiple places
+* Prevent human error
+
+## 2. Get your data/folders to HokieSpeed
+
+### 2.1 Make sure you are ready.
+```
+$ echo $HKP1
+```
+
+### 2.2 Open two or more terminals. 
+press Ctrl + Shift + t will open one more terminal. 
+```
+ssh $HKSP1
+```
+
+### 2.3 There's more than one way to do it.
+
+#### 2.3.1 SCP
+```
+$ scp makeProj.sh $HKSP1:~/
+```
+in another window, check that makeProj.sh is already in your home directory.
+
+#### 2.3.2 SFTP
+```
+songli@hokiespeed1.arc.vt.edu's password: 
+Connected to hokiespeed1.arc.vt.edu.
+sftp> put makeProj.sh 
+Uploading makeProj.sh to /home/songli/makeProj.sh
+makeProj.sh                                   100%  177     0.2KB/s   00:00    
+sftp> 
+```
+again, check in another window.
+
+#### 2.3.3 rsync
+```
+$ cd Research
+$ rsync -ravz Project1 $HKSP1:~/Research/
+songli@hokiespeed1.arc.vt.edu's password: 
+
+sending incremental file list
+Project1/
+Project1/.test
+Project1/data/
+Project1/data/SampleGFF.gff
+Project1/data/SampleSam.sam
+Project1/rawdata/
+Project1/rawdata/SampleFastq.fastq
+Project1/rawdata/SampleGFF.gff
+Project1/rawdata/SampleSam.sam
+Project1/rawdata/TAIR10.fas
+Project1/rawdata/Test.fastq
+
+sent 2,782,536 bytes  received 195 bytes  505,951.09 bytes/sec
+total size is 20,465,345  speedup is 7.35
+```
+The options for rsync:
+* r: recursive, this makes the command copy all the sub folders
+* a: archive mode, symbolic links copied by this method will not create new files
+* v: verbose, make many text on the screen
+* z: zip the file so it save transmit bandwidth and time
+
+
+
 
 
 
