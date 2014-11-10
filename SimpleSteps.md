@@ -85,6 +85,7 @@ $ cd -
 ### 1.4 where are the "programs" ?
 
 ```
+$ ls /bin
 
 $ ls /usr/bin
 
