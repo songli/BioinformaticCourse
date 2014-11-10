@@ -194,3 +194,4 @@ Check your results
 $ ls -l
 ```
 
+## Coming up next: [Bioinformatic Recipes (Next Generation Sequencing)](BioinfoBashRecipes.md)
