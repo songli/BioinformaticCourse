@@ -39,7 +39,7 @@ Project 3 etc
 
 
 
-## 1. Looking around your working environment.
+## 1. Your working environment.
 
 ### 1.1 open your terminal
 
