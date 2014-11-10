@@ -59,7 +59,7 @@ $ ls -l
 
 ### 2.1 Make sure you are ready.
 ```
-$ echo $HKP1
+$ echo $HKSP1
 ```
 
 ### 2.2 Open two or more terminals. 
