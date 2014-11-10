@@ -2,13 +2,13 @@
 
 Make sure you have your data in the directory.
 ```
-cd ~/Research
+cd ~/Research/Proj1
 ls data
 ```
 
 ### 1. How many genes/chromsomes/contigs are in my fasta file?
 
-The anatomy of a fasta file
+The anatomy of a fasta file (from www.arabidopsis.org)
 ```
 >Chr1 CHROMOSOME dumped from ADB: Jun/20/09 14:54; last updated: 2009-02-02
 TTGTTTTGCTTCTTTGAAGTAGTTTCTCTTTGCAAAATTCCTCTTTTTTTAGAGTGATTTGGATGATTCAAGACTTCTC
@@ -21,7 +21,7 @@ ACCCTAATCTTTAGTTCCTAGACCCTAAATCCATAATCCTTAATTCCTAAATTCCTAAATCCCTAATACTAAATCTCTA
 AATCCCTAGCAATTTTCAAGTTTTGCTTGATTGTTGTAGGATGGTCCTTTCTCTTGTTTCTTCTCTGTGTTGTTGAGAT
 ```
 
-Another example
+Another example (from www.arabidopsis.org)
 ```
 >AT1G51370.2 | Symbols:  | F-box/RNI-like/FBD-like domains-containing protein | chr1:19045615-19046748 FORWARD LENGTH=346
 MVGGKKKTKICDKVSHEEDRISQLPEPLISEILFHLSTKDSVRTSALSTKWRYLWQSVPGLDLDPYASSNTNTIVSFVES
@@ -77,7 +77,7 @@ $ sed 's/mitochondria/ChrM/' < Test.fas | sed 's/chloroplast/ChrC/' > data/TAIR1
 
 ### 2. How many reads in a fastq file?
 
-What is a fastq file?
+What is a fastq file? (data source http://www.ncbi.nlm.nih.gov/bioproject/PRJEB1937)
 
 ```
 @ERR274309.996 HWI-B5-690_0070_FC:5:1:10722:1134#0 length=76
