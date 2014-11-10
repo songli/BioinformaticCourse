@@ -247,7 +247,7 @@ $ echo "my first project" > README.md
 cd
 cd Research
 cd Project1
-cd data
+cd rawdata
 wget http://tinyurl.com/lathambio/SampleSam.sam
 wget http://tinyurl.com/lathambio/SampleGFF.gff
 wget http://tinyurl.com/lathambio/SampleFastq.fastq
