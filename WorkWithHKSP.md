@@ -178,7 +178,7 @@ Job ID                    Name             User            Time Use S Queue
 
 ```
 
-When your job will run depends on the availability of the computing resources.
+Your job will start when the requested computing resources is available.
 
 ```
 $ qstat
