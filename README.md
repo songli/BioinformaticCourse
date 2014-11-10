@@ -14,7 +14,7 @@ Bioinformatic Course II
  
 1. Buy a mac and install homebrew. **$$$$**
 2. Buy an old machine an install linux on it. **$**
-3. Virtual Machines. **_Free !_**
+3. Virtual Machines. **_Free ! sometimes laggy_**
 
     3.1 VirtualBox https://www.virtualbox.org
     
@@ -24,17 +24,17 @@ Bioinformatic Course II
         
     3.2 VMWare Player https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
   
-4. SSH Clients. **_Free !_**
+4. SSH Clients. **_Free ! It's just a client_**
 
   SSH Secure Shell Client https://shareware.unc.edu
   
   Putty http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
-5. Dual Boot. **_Free ! But not simple for windows 8_**
+5. Dual Boot. **_Free ! not simple for windows 8_**
 
   Download bootable USB drive or CD image
   [see tutorial] (http://askubuntu.com/questions/221835/installing-ubuntu-on-a-pre-installed-windows-8-64-bit-system-uefi-supported)
-6. Native Client. **_Windows Only, Free !_**
+6. Native Client. **_Windows Only, Free ! Chunky and Grumpy_**
 
   Cygwin https://www.cygwin.com
   
