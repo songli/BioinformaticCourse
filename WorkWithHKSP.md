@@ -24,7 +24,8 @@ total 20224
 -rw-r--r--  1 song  staff    11K Nov  9 18:58 TAIR10.fas
 
 ```
-Notice that the all the files are "rw-" for the user. **You want to keep your data safe from yourself !**.
+Notice that the all the files are "rw-" for the user. 
+# **You want to keep your data safe from yourself !**
 
 ```
 $ chmod a-w *
@@ -50,7 +51,7 @@ $ ln -s ../rawdata/SampleSAM.sam
 $ ln -s ../rawdata/TAIR10.fas
 $ ls -l
 ```
-* Don't use more space
+* Won't take more space
 * Same file can be accessed at multiple places
 * Prevent human error
 
@@ -86,7 +87,7 @@ sftp>
 ```
 again, check in another window.
 
-#### 2.3.3 rsync **Highly Recommended**
+#### 2.3.3 rsync _**Highly Recommended**_
 ```
 $ cd Research
 $ rsync -ravz Project1 $HKSP1:~/Research/
@@ -117,10 +118,10 @@ The options for rsync:
 
 ## 3. Running jobs on HokieSpeed
 
-Introducing Advanced Research Computing [see](http://www.arc.vt.edu/)
+Introducing Advanced Research Computing [see this link](http://www.arc.vt.edu/)
 
 The HPC model: 
-* you login to head node, copy your data and script over.
+* you login to head node, copy your data and scripts over.
 * you submit your job request by a shell [script] (http://www.arc.vt.edu/resources/hpc/docs/hokiespeed_qsub_example.sh).
 * a schedular will allocate appropriate resource for your job.
 * the job will run in one or more compute nodes.
