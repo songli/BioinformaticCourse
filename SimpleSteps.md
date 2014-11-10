@@ -101,13 +101,14 @@ $ which R
 ## 2. Making your life easier by editing your .bashrc.
 
 ### 2.1 choose your editor
-    * vi http://en.wikipedia.org/wiki/Vi
-    * emacs http://en.wikipedia.org/wiki/Emacs
-    * **nano**
-    * gedit
-    * notepad ++ **windows only**
-    * bluefish
-    * eclipse
+
+   * vi http://en.wikipedia.org/wiki/Vi
+   * emacs http://en.wikipedia.org/wiki/Emacs
+   * **nano**
+   * gedit
+   * notepad ++ **windows only**
+   * bluefish
+   * eclipse
 
 
 ### 2.2 open your .bashrc
