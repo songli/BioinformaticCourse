@@ -257,8 +257,6 @@ wget http://tinyurl.com/lathambio/TAIR10.fas
 ls -lh
 ```
 
-## Coming up next 
-
-## [Your first bash script](BashTutorial.md)
+## Coming up next: [Your first bash script](BashTutorial.md)
 
 
