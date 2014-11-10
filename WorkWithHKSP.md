@@ -126,10 +126,70 @@ The HPC model:
 * the job will run in one or more compute nodes.
 
 ```
+# Example script for simpleqsub.sh
+
+#!/bin/bash
+
+# Example qsub script for HokieSpeed
+
+#PBS -W group_list=hokiespeed
+#PBS -l walltime=01:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -q normal_q
+#PBS -A hokiespeed
+
+module purge
+module load gcc openmpi cuda
+module add R python
+
+# Change to the directory from which the job was submitted
+cd ~/Research/
+
+# Say "Hello world!"
+echo "Hello world!"
+
+# Run the program
+./makeProj.sh pj1
+sleep 30
+./makeProj.sh pj2
+sleep 30
+./makeProj.sh pj3
+
+echo "Done!"
+
+exit;
+```
+
+Submit your job
+
+```
+[songli@hslogin1 Research]$ qsub simpleqsub.sh
+50871.master.cluster
+```
+
+Check your job status
+
+```
+$ qstat
+
+Job ID                    Name             User            Time Use S Queue
+------------------------- ---------------- --------------- -------- - -----
+50870.master               simpleqsub.sh    songli                 0 Q normal_q
 
 ```
 
+When your job will run depends on the availability of the computing resources.
 
+```
+$ qstat
 
+Job ID                    Name             User            Time Use S Queue
+------------------------- ---------------- --------------- -------- - -----
+50871.master               simpleqsub.sh    songli                 0 R normal_q
+```
 
+Check your results
+```
+$ ls -l
+```
 
